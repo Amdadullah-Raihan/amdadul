@@ -1,6 +1,10 @@
 /*******************************/
 /********* General CSS *********/
 /*******************************/
+.smooth-scroll {
+    scroll-behavior: smooth;
+}
+
 body {
     color: #797979;
     background: #ffffff;
@@ -278,7 +282,8 @@ a:focus {
 .hero .hero-image img {
     max-width: 80%;
     max-height: 80%;
-    border: 1px solid salmon;
+    background-color: #fdf2f8;
+    border: 2px solid salmon;
     border-radius: 50px;
     margin-bottom: 50px;
 }
